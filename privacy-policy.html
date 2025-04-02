@@ -1,53 +1,129 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Политика конфиденциальности Plati.market Helper</title>
+    <title>Privacy Policy - Plati.market Helper</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
         h1 { color: #2c3e50; }
         h2 { color: #34495e; margin-top: 30px; }
         ul { padding-left: 20px; }
+        .lang-switcher { text-align: right; margin-bottom: 20px; }
+        .lang-switcher a { margin-left: 10px; text-decoration: none; }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <h1>Политика конфиденциальности Plati.market Helper</h1>
-    <p><strong>Последнее обновление:</strong> 15 ноября 2023 г.</p>
+    <div class="lang-switcher">
+        <a href="#" onclick="switchLanguage('en')">English</a> | 
+        <a href="#" onclick="switchLanguage('ru')">Русский</a>
+    </div>
 
-    <h2>1. Какие данные мы собираем?</h2>
-    <p>Расширение <strong>НЕ</strong> собирает и не хранит:</p>
-    <ul>
-        <li>Личные данные пользователя (логины, пароли, email, платежные реквизиты)</li>
-        <li>Информацию об аккаунте Steam (игры, друзья, история покупок)</li>
-        <li>Данные с других сайтов, кроме открытой информации о товарах на Plati.market</li>
-    </ul>
+    <!-- English Content (default visible) -->
+    <div id="en-content">
+        <h1>Privacy Policy - Plati.market Helper</h1>
+        <p><strong>Last Updated:</strong> November 15, 2023</p>
 
-    <h2>2. Используемые разрешения</h2>
-    <table border="1" cellpadding="8" cellspacing="0">
-        <tr>
-            <th>Разрешение</th>
-            <th>Цель</th>
-        </tr>
-        <tr>
-            <td><code>storage</code></td>
-            <td>Сохранение настроек фильтров/валюты в вашем браузере</td>
-        </tr>
-        <tr>
-            <td><code>https://plati.market/</code></td>
-            <td>Поиск товаров на торговой площадке</td>
-        </tr>
-        <tr>
-            <td><code>https://steamcommunity.com/</code></td>
-            <td>Определение названия текущей игры</td>
-        </tr>
-        <tr>
-            <td><code>clipboardWrite</code></td>
-            <td>Копирование промокода по вашему запросу</td>
-        </tr>
-    </table>
+        <h2>1. What Data Do We Collect?</h2>
+        <p>The extension <strong>DOES NOT</strong> collect or store:</p>
+        <ul>
+            <li>Personal user data (logins, passwords, email, payment details)</li>
+            <li>Steam account information (games, friends, purchase history)</li>
+            <li>Data from other sites except public product information on Plati.market</li>
+        </ul>
 
-    <h2>3. Контакты</h2>
-    <p>Для вопросов: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <h2>2. Required Permissions</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td><code>storage</code></td>
+                <td>Saving filter/currency settings in your browser</td>
+            </tr>
+            <tr>
+                <td><code>https://plati.market/</code></td>
+                <td>Searching for products on the marketplace</td>
+            </tr>
+            <tr>
+                <td><code>https://steamcommunity.com/</code></td>
+                <td>Identifying the current game page</td>
+            </tr>
+            <tr>
+                <td><code>clipboardWrite</code></td>
+                <td>Copying promo codes at your request</td>
+            </tr>
+        </table>
+
+        <h2>3. Contact Information</h2>
+        <p>For questions: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+
+    <!-- Russian Content (hidden by default) -->
+    <div id="ru-content" class="hidden">
+        <h1>Политика конфиденциальности Plati.market Helper</h1>
+        <p><strong>Последнее обновление:</strong> 15 ноября 2023 г.</p>
+
+        <h2>1. Какие данные мы собираем?</h2>
+        <p>Расширение <strong>НЕ</strong> собирает и не хранит:</p>
+        <ul>
+            <li>Личные данные пользователя (логины, пароли, email, платежные реквизиты)</li>
+            <li>Информацию об аккаунте Steam (игры, друзья, история покупок)</li>
+            <li>Данные с других сайтов, кроме открытой информации о товарах на Plati.market</li>
+        </ul>
+
+        <h2>2. Используемые разрешения</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Разрешение</th>
+                <th>Цель</th>
+            </tr>
+            <tr>
+                <td><code>storage</code></td>
+                <td>Сохранение настроек фильтров/валюты в вашем браузере</td>
+            </tr>
+            <tr>
+                <td><code>https://plati.market/</code></td>
+                <td>Поиск товаров на торговой площадке</td>
+            </tr>
+            <tr>
+                <td><code>https://steamcommunity.com/</code></td>
+                <td>Определение названия текущей игры</td>
+            </tr>
+            <tr>
+                <td><code>clipboardWrite</code></td>
+                <td>Копирование промокода по вашему запросу</td>
+            </tr>
+        </table>
+
+        <h2>3. Контакты</h2>
+        <p>Для вопросов: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            if (lang === 'en') {
+                document.getElementById('en-content').classList.remove('hidden');
+                document.getElementById('ru-content').classList.add('hidden');
+                document.documentElement.lang = 'en';
+            } else if (lang === 'ru') {
+                document.getElementById('ru-content').classList.remove('hidden');
+                document.getElementById('en-content').classList.add('hidden');
+                document.documentElement.lang = 'ru';
+            }
+            
+            // Store preference in localStorage
+            localStorage.setItem('language-preference', lang);
+            return false;
+        }
+
+        // Check for saved language preference
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('language-preference') || 'en';
+            switchLanguage(savedLang);
+        });
+    </script>
 </body>
 </html>
