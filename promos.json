@@ -6,7 +6,7 @@
     
   },
   "bySeller": {
-    "415667": {
+  //  "415667": {
       "default": { "code": "PLATIFINDER", "note": "универсальный" },
       "patterns": [
         { "pattern": "(?i)deluxe", "code": "DELUXE5", "note": "Deluxe издание" }
