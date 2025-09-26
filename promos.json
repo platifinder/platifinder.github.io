@@ -1,7 +1,7 @@
 {
   "meta": { "version": 1, "updated": "2025-09-26T00:00:00Z" },
   "byId": {
-    "3321383": { "code": "SAVE10", "note": "−10% до 31.12", "expires": "2025-12-31" },
+    "0": { "code": "SAVE10", "note": "−10% до 31.12", "expires": "2025-12-31" },
     "4074865": { "code": "CREEPYSALE", "note": "спец. оффер 10%" }
   },
   "bySeller": {
