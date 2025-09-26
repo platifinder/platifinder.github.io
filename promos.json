@@ -3,6 +3,7 @@
   "byId": {
     "3321383": { "code": "TEST10", "note": "−10% до 31.12", "expires": "2025-12-31" },
     "987654": { "code": "LAVKAFINDER", "note": "спец. оффер" }
+    "4074865": { "code": "CREEPYSALE", "note": "−10% до 31.12", "expires": "2025-12-31" },
   },
   "bySeller": {
     "415667": {
