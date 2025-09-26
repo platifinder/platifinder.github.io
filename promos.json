@@ -5,7 +5,7 @@
     "4074865": { "code": "CREEPYSALE", "note": "спец. оффер 10%" }
   },
   "bySeller": {
-    "0": {
+    "415667": {
       "default": { "code": "PLATIFINDER", "note": "3% на все" },
       "patterns": [
         { "pattern": "(?i)deluxe", "code": "DELUXE5", "note": "Deluxe издание" }
